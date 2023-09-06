@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "pre-deploy": "node deleteLastDeploy.js",
-    "deploy": "npm run pre-deploy && now --public && now alias"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
